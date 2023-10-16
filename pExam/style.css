@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 20vh 30vw ;
+}
+
+
+.title2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-button a{
+    color: black;
+    background-color: rgb(28, 138, 39);
+    margin: 10px;
+    font-size: larger;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+}
+
+.home-button a:hover, .home-button a:active{
+    background-color: red;
+    color: white;
+}
+
+
+.home-button{
+    margin-top: 5px;
+}
+
+.header{
+   padding: 15px;
+    background-color: aquamarine;
+}
+
+.header p{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.footer{
+    padding: 15px;
+     background-color: aquamarine;
+ }
+
+ .footer p{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.form-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 6px;
+   
+}
+
+.form-group label{
+    text-align: right;
+    margin-right: 10px;
+}
+
+ .register-buttons{
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.addFriends-buttons a{
+    color: black;
+    background-color: rgb(28, 138, 39);
+    margin: 10px;
+    font-size: larger;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+}
+
+.addFriends-buttons a:hover, .addFriends-buttons a:active{
+    background-color: red;
+    color: white;
+}
+
+
+.addFriends-buttons{
+    margin-top: 5px;
+    margin-left: 250px;
+}
+
+.title3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.login-form{
+    border: 2px solid black;
+    margin: 60px 320px;
+    padding: 20px;
+    
+}
+
